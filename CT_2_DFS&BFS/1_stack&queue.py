@@ -14,6 +14,7 @@ stack.pop()
 print(stack[::-1]) # 최상단 원소부터 출력
 print(stack) # 최하단 원소부터 출력
 
+
 ## 파이썬에서 queue는 from collections import deque 라이브러리를 활용하면 됨, append(), popleft()로 삽입, 삭제
 # 리스트로도 구현 가능하지만 시간복잡도가 deque로 구현하는 것이 우수하므로 deque로 구현하기
 from collections import deque
