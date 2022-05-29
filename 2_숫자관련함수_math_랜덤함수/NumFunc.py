@@ -22,8 +22,8 @@ print(int(random()*10))  # 0 이상 10 미만의 난수(정수) 생성
 print(int(random()*10)+1)  # 1 이상 10 이하의 난수(정수) 생성
 
 print(int(random()*45)+1)  # 1 이상 45 이하의 난수 생성
-print(randrange(1, 46))  # 1 이상 46 미만의 난수 생성
-print(randint(1, 45))  # 1 이상 45 이하의 난수 생성
+print(randrange(1, 46))  # 1 이상 46 미만의 난수 생성 => randrange(a, b) : a 이상 b 미만의 난수 생성(for문의 range와 같은 느낌)
+print(randint(1, 45))  # 1 이상 45 이하의 난수 생성 => randint(a, b) : a 이상 b 이하의 난수 생성
 
 #퀴즈
 """

@@ -12,7 +12,7 @@ for i in range(len(array)):
     count[array[i]] += 1 # 각 데이터에 해당하는 인덱스의 값 증가
 
 for i in range(len(count)): # 리스트에 기록된 정렬 정보 확인
-    for j in range(count[i]):
+    for _ in range(count[i]):
         print(i, end=' ')
 
 ## 계수 정렬의 시간 복잡도와 공간 복잡도는 모두 O(N + K)

@@ -6,7 +6,7 @@ def solution(alp, cop, problems):
     maxAlp=0
     maxCop=0
     subAlp=list()
-    subCop=lsit()
+    subCop=list()
     cost=0
 
     for i in range(n):
@@ -27,7 +27,7 @@ def solution(alp, cop, problems):
 
             if problems[i][0] <= alp and problems[i][1] <= cop:
                 if ((problems[i][2] + problems[i][3]) // problems[i][4]) >= 1:
-                    if min(subAlp) <= subAlp[i] and min(subCop) <= subCop[i]
+                    if min(subAlp) <= subAlp[i] and min(subCop) <= subCop[i]:
                         alp += problems[i][2]
                         cop += problems[i][3]
                         cost += problems[i][4]

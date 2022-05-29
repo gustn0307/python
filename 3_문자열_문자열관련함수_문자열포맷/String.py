@@ -36,8 +36,8 @@ print("Hello World".index("W"))  # 변수가 아닌 문자열 자체로도 가�
 print("Hello World".count("o"))  # 변수가 아닌 문자열 자체로도 가능
 
 # 문자열 포맷
-print("a"+"b")
-print("a", "b")
+print("a"+"b") # 붙여서 출력됨
+print("a", "b") # 띄어서 출력됨
 
 # 방법 1
 print("나는 %d살 입니다." % 20)
