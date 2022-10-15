@@ -10,7 +10,7 @@
 # 1       100     18          
 # 100     300     20
 
-## 내 답안
+## 내 답안  https://velog.io/@dmsql698/Python-%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC-%EA%B0%9C%EC%88%98-%EA%B5%AC%ED%95%98%EA%B8%B0
 def solution(n, m):
     answer = 0
 

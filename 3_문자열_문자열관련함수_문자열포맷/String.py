@@ -3,7 +3,7 @@
 
 # 문자열
 
-sentence = '나는 소년입니다'
+sentence = '안녕하세요 하이'
 print(sentence)
 print(sentence[::-1]) # 문자열 뒤집기 https://velog.io/@dmsql698/Python-%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC-%EA%B0%9C%EC%88%98-%EA%B5%AC%ED%95%98%EA%B8%B0
 
