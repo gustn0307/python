@@ -1,7 +1,11 @@
-# 문자열, 문자열 처리 함수 ( lower(), upper(), isupper(), islower(), len(), replace(), index(), find(), count() ), 문자열 포맷, 탈출문자
+# 문자열, 문자열 처리 함수 ( lower(), upper(), isupper(), islower(), len(), replace(), index(), find(), count() ), 
+# 문자열 포맷, 탈출문자, 문자열 뒤집기
 
 # 문자열
-from typing import NewType
+
+sentence = '나는 소년입니다'
+print(sentence)
+print(sentence[::-1]) # 문자열 뒤집기 https://velog.io/@dmsql698/Python-%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC-%EA%B0%9C%EC%88%98-%EA%B5%AC%ED%95%98%EA%B8%B0
 
 
 sentence = '나는 소년입니다'
