@@ -24,8 +24,20 @@ def solution(participant, completion):
     return list(answer.keys())[0]
 
 ## 답안
+# Counter - https://www.daleseo.com/python-collections-counter/
 import collections
 
 def solution(participant, completion):
     answer = collections.Counter(participant) - collections.Counter(completion)
     return list(answer.keys())[0]
+
+
+# import collections
+
+# def solution(participant, completion):
+#     answer = collections.Counter(participant) - collections.Counter(completion)
+#     print(answer)
+#     print(answer.keys())
+#     print(list(answer.keys())[0])
+#     print(list(answer.keys()))
+#     return list(answer.keys())[0]
